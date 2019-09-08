@@ -1,0 +1,127 @@
+
+
+/* Mobile */
+
+body {margin: 0;
+      padding: 0;
+      padding-inline-start: 0px;}
+
+@media screen and (min-width: 320px) and (max-width: 779px)
+
+{
+
+.logo0 {width: 135px;
+        margin-top: 9px;
+        margin-left: 33px;
+        float: left;}
+
+.version-wheel {float: right;
+                width: 45%;
+                margin-bottom: 33px;
+                position: relative;
+                z-index: 0;}
+
+/* hamburger menu*/
+
+.navbar li {list-style: none;}
+
+.navbar {z-index: 1;}
+
+.navbar__left {margin-top: -140px;} /*Removes extra space from top hamburger menu*/
+
+.final-link {margin-bottom: 20px;}
+
+ul {padding: 0;}
+
+.link-left,
+.link-right,
+.white-logo__container {display: flex;
+                        flex-flow: column nowrap;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;}
+
+/* Style the navigation menu */
+.navbar {background-color: #1b2937;
+         position: relative;}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.navbar .myLinks {display: none;}
+
+/* Style navigation menu links */
+.navbar a {color: white;
+           padding: 14px 16px;
+           text-decoration: none;
+           font-size: 24px;
+           display: inline-block;}
+
+/* Style the hamburger menu */
+a.icon {display: block;
+        position: absolute;
+        right: 0;
+        font-size: 30px;
+        padding-right: 22px;
+        padding-top: 19px;
+        }
+
+.fa-bars {color: grey;}
+
+
+/* Starting main*/
+
+.showcase__content__h {padding-top: 150px;
+                       margin-top: 0;
+                       margin-left: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
