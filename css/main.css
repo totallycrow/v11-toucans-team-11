@@ -195,6 +195,69 @@ a.icon {display: block;
            border-radius: 5px;
            align-self: flex-start;}
 
+.drift {width: 100%;}
+
+.blog-wrapper {display: flex;
+               flex-flow: column nowrap;
+               align-items: center;
+               padding: 60px 40px 80px;
+               line-height: 28px;
+               background-color: #ececec;}
+
+.blog__content__h {font-size: 32px; line-height: 36px;}
+
+.blog-p__initial-p {align-self: flex-start;
+                    color: #9e9ea7;}
+
+.read-link {color: #464646;
+            text-decoration: none;
+            font-size: 14px;
+            align-self: flex-start;}
+
+.connect-wrapper {background-color: #488283;
+                  color: white;
+                  text-align: center;
+                  line-height: 34px;
+                  padding: 40px 40px 20px;}
+
+.connect-wrapper__h {margin-top: 0;}
+
+.bg1, .bg2, .bg3, .bg4 {background-repeat: no-repeat;
+                        background-size: cover;
+                        line-height: 300px;
+                        min-height: 300px;
+                        margin-top: 3px;}
+
+.bg1 {background-image: url(../img/docs-bg.png); }
+
+.bg2 {background-image: url(../img/samples-bg.png); }
+
+.bg3 {background-image: url(../img/slack-bg.png);}
+
+.bg4 {background-image: url(../img/github-bg.png);}
+
+.sdm, .code, .slack, .github {width: 40px;}
+
+.bg-p {color: white; text-align: center; margin: 0; font-size: 21px;}
+
+.bg1-img,
+.bg2-img,
+.bg3-img,
+.bg4-img {display: flex;
+          flex-flow: row nowrap;
+          vertical-align: middle;
+          justify-content: center;
+          position: relative;
+          top: 120px;
+          align-items: center;}
+
+
+
+
+
+
+
+
 
 
 
