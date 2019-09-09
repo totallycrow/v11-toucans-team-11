@@ -123,4 +123,55 @@ a.icon {display: block;
             margin: 36px 0 46px 0;
             border-radius: 5px;}
 
+.btn-trans:active {color: white;
+                   background-color: #5bc399;}
+
+.control-process__content__h {font-size: 24px;}
+
+.control-process__content__p {font-size: 18px; color: #717274;}
+
+.control-process__content {margin: 40px 20px 50px;}
+
+.execution {width: 84%;}
+
+.control-process__image {text-align: center;}
+
+.icon-main {width: 160px;}
+
+.standardize-wrapper {display: flex;
+                      flex-flow: column nowrap;
+                      align-items: center;
+                      padding: 60px 40px 80px;
+                      text-align: center;
+                      background-color: #f7f7f7;}
+
+.standardize-wrapper p {color: #9e9ea7;}
+
+.btn-standardize {color: white;
+                  padding: 23px 28px;
+                  background-color: #5bc399;
+                  border: none;
+                  border-radius: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
