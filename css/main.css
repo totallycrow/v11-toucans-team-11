@@ -322,16 +322,70 @@ a.icon {display: block;
   background-color: #717171;
 }
 
-.dots {text-align: center; clear: both;}
+.dots {text-align: center;
+       clear: both;}
+
+/*Footer */
 
 
 
+.footer-bg {width: 100%;}
 
+.motto {font-size: 21px;
+        text-align: center;}
 
+.motto-btn1,
+.motto-btn2      {color: white;
+                  padding: 23px 28px;
+                  background-color: #5bc399;
+                  border: none;
+                  margin-top: 35px;
+                  border-radius: 5px;}
 
+.motto-btn-wrapper {display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;}
 
+.logo-footer {width: 47px;}
 
+.logo-footer-wrapper {text-align: center;
+                      margin-top: 120px;
+                      margin-bottom: 40px;}
 
+.footer-columns-wrapper {display: flex;
+                         flex-flow: row nowrap;
+                         justify-content: center;
+                         align-items: center;}
+
+.footer-column1,
+.footer-column2,
+.footer-column3 {width: 100px;
+                 color: #858585;
+                 text-align: center;
+                 font-size: 16px;}
+
+.footer-columns-wrapper p {margin-bottom: 20px;}
+
+.copy {text-align: center;
+       color: #858585;}
+
+.bullet {margin: 0 10px;}
+
+.social-icons {font-size: 22px;
+               text-align: center;}
+
+.fa-twitter,
+.fa-github,
+.fa-youtube,
+.fa-slack {margin: 20px;}
+
+.terms-wrapper {display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                margin-bottom: 100px;
+                color: #858585;
+                margin-top: 30px;}
 
 
 
