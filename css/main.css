@@ -2,8 +2,8 @@
 
 /* Mobile */
 
-body {margin: 0;
-      padding: 0;}
+* {margin: 0;
+   padding: 0;}
 
 @media screen and (min-width: 320px) and (max-width: 779px)
 
@@ -228,9 +228,9 @@ a.icon {display: block;
                         min-height: 300px;
                         margin-top: 3px;}
 
-.bg1 {background-image: url(../img/docs-bg.png); }
+.bg1 {background-image: url(../img/docs-bg.png);}
 
-.bg2 {background-image: url(../img/samples-bg.png); }
+.bg2 {background-image: url(../img/samples-bg.png);}
 
 .bg3 {background-image: url(../img/slack-bg.png);}
 
@@ -238,7 +238,9 @@ a.icon {display: block;
 
 .sdm, .code, .slack, .github {width: 40px;}
 
-.bg-p {color: white; text-align: center; margin: 0; font-size: 21px;}
+.bg-p {color: white;
+       text-align: center;
+       font-size: 21px;}
 
 .bg1-img,
 .bg2-img,
@@ -251,6 +253,69 @@ a.icon {display: block;
           top: 120px;
           align-items: center;}
 
+
+.marlette,
+.kyyti,
+.nvidia,
+.pivotal,
+.barclays {width: 45px;}
+
+.slide1-h,
+.slide2-h,
+.slide3-h,
+.slide4-h,
+.slide5-h {float: left;
+           color: #717274;}
+
+.slide-h {font-size: 16px;}
+
+.slide1-img-wrapper,
+.slide2-img-wrapper,
+.slide3-img-wrapper,
+.slide4-img-wrapper,
+.slide5-img-wrapper {float: right;}
+
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5 {clear: both; padding: 40px;}
+
+.slide1 p,
+.slide2 p,
+.slide3 p,
+.slide4 p,
+.slide5 p {margin-bottom: 40px; font-size: 18px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.dots {text-align: center; clear: both;}
 
 
 
