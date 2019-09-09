@@ -143,6 +143,7 @@ a.icon {display: block;
                       align-items: center;
                       padding: 60px 40px 80px;
                       text-align: center;
+                      line-height: 28px;
                       background-color: #f7f7f7;}
 
 .standardize-wrapper p {color: #9e9ea7;}
@@ -153,13 +154,24 @@ a.icon {display: block;
                   border: none;
                   border-radius: 5px;}
 
+.hood-wrapper {display: flex;
+                      flex-flow: column nowrap;
+                      align-items: center;
+                      padding: 60px 40px 80px;
+                      line-height: 28px;}
 
+.hood-wrapper p {color: #9e9ea7;}
 
+.btn-hood {color: white;
+                  padding: 23px 30px;
+                  background-color: #5bc399;
+                  border: none;
+                  border-radius: 5px;
+                  align-self: flex-start;}
 
+.circle {width: 100%; }
 
-
-
-
+.circle-wrapper {text-align: center; margin-top: 29px;}
 
 
 
