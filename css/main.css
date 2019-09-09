@@ -162,23 +162,38 @@ a.icon {display: block;
 
 .hood-wrapper p {color: #9e9ea7;}
 
+.hood__content__h {align-self: flex-start;}
+
 .btn-hood {color: white;
-                  padding: 23px 30px;
-                  background-color: #5bc399;
-                  border: none;
-                  border-radius: 5px;
-                  align-self: flex-start;}
+           padding: 23px 30px;
+           background-color: #5bc399;
+           border: none;
+           border-radius: 5px;
+           align-self: flex-start;}
 
 .circle {width: 100%; }
 
-.circle-wrapper {text-align: center; margin-top: 29px;}
+.circle-wrapper {text-align: center;
+                 margin-top: 29px;}
 
+.case-wrapper {display: flex;
+               flex-flow: column nowrap;
+               align-items: center;
+               padding: 60px 40px 80px;
+               line-height: 28px;
+               background-color: #f7f7f7;}
 
+.goals {width: 117%;}
 
+.case__content__h {align-self: flex-start;
+                   font-size: 21px;}
 
-
-
-
+.btn-case {color: white;
+           padding: 23px 30px;
+           background-color: #5bc399;
+           border: none;
+           border-radius: 5px;
+           align-self: flex-start;}
 
 
 
