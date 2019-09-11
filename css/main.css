@@ -1211,6 +1211,9 @@ body {
   }
 
   /* *** */  
+  .body {
+    box-sizing: border-box;
+  }
 
   .btns-top {
     align-items: flex-start;
@@ -1265,6 +1268,30 @@ body {
     min-width: 500px;
     margin: auto;
   }
+
+  .blog__content__h {
+    padding: 2rem 1rem;
+  }
+
+  .blog-wrapper {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blog-wrapper p {
+    padding: 0 1rem;
+    max-width: 600px;
+    
+  }
+
+  .bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  
 
 }
 
