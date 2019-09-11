@@ -1251,6 +1251,21 @@ body {
     text-align: center;
     align-self: center;
   }
+  .control-process__content {
+    text-align: center;
+  }
+  .control-process__content__p {
+    padding: 1rem 4rem;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+  }
+  .control-process__image {
+    max-width: 900px;
+    min-width: 500px;
+    margin: auto;
+  }
+
 }
 
 /* DESKTOP View */
