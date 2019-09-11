@@ -1289,6 +1289,29 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .dots {
+    padding: 2rem 0;
+  }
+
+  .motto {
+    padding: 2rem 0;
+  }
+
+  .motto-btn1,
+  .motto-btn2 {
+    width: 30%;
+  }
+
+  .motto-btn1 {
+    margin-top: 10px;
+  }
+
+  .logo-footer-wrapper {
+    margin-top: 50px;
+  }
+
+
   
   
   
