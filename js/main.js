@@ -1,5 +1,6 @@
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+if ( $(window).width() < 1281) {
 function myFunction() {
   var x = document.getElementsByClassName('myLinks');
   const divyArray = Array.from(x);
@@ -7,7 +8,7 @@ function myFunction() {
     if (currentValue.style.display === 'block')
     {currentValue.style.display = 'none';}
     else {currentValue.style.display = 'block';}
-  });}
+  });}}
 
   var slideIndex = 0;
   showSlides();
