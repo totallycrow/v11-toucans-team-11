@@ -1304,7 +1304,7 @@ body {
   .showcase__content__h {padding-top: 150px;
                    margin-top: 0;
                    margin-left: 22px;
-                   font-size: 52px;}
+                   font-size: 48px;}
   
   .showcase__content__p {font-size: 21px;
                   color: #717274;
@@ -1421,7 +1421,7 @@ body {
   
   .control-content__text {display:flex;
     flex-direction: column;
-    padding-right:350px;
+    padding-right:390px;
     justify-content: center;}
   
   .execution {width: 84%;}
@@ -1436,7 +1436,7 @@ body {
   .standardize-card {display: flex;
                   flex-flow: row wrap;
                   justify-content: center;
-                  padding: 60px 40px 10px;
+                  padding: 30px 40px 10px;
                   text-align: center;
                   line-height: 28px;
                   }
@@ -1445,7 +1445,7 @@ body {
   position: relative;}
   
   .standardize__h-main {
-    padding-top:50px;
+    padding-top: 60px;
     font-size: 28px;
     text-align: center;
   }
@@ -1692,12 +1692,12 @@ body {
   /*Footer */
   
   footer {background: #F7F7F7;
-  padding-bottom: 1px;}
-  
-  .footer-banner {background-image: url("../img/footer-background.png");
+  padding-bottom: 1px;
+  background-image: url("../img/footer-background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;}
+  background-size: 100%;
+  text-align: center;}
   
   .footer-bg {display: none;
     width: 100%;}
@@ -1721,7 +1721,7 @@ body {
                 justify-content: center;
                 align-items: center;}
   
-  .logo-footer {width: 47px;}
+  .logo-footer {width: 47px; padding-top:150px;}
   
   .logo-footer-wrapper {text-align: center;
                   margin-top: 5px;
