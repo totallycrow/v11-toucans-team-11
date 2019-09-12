@@ -610,7 +610,7 @@ body {
 
 
 /* TABLET View */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1280px) {
 
   /* BASE MOBILE CSS */
   /* **** */
@@ -1322,14 +1322,10 @@ body {
 
 }
 
-/* DESKTOP View */
-@media (min-width: 1025px) {
-}
-
 
 /*DESKTOP*/
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
 
   .logo0 {width: 135px;
     margin-top: 9px;
@@ -1422,7 +1418,7 @@ body {
 
   .control-code__screen img {
     position: relative;
-    height: 110%;
+    height: 100%;
     top: -5%;
     bottom: -15px;
     right: 29%;
