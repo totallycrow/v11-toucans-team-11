@@ -1755,13 +1755,11 @@ body {
   .fa-youtube,
   .fa-slack {margin: 20px;}
   
-  .terms-wrapper {display: flex;
+  .terms-wrapper {display: flex; 
             flex-flow: row nowrap;
             justify-content: center;
             margin-bottom: 100px;
             color: #858585;
             margin-top: 30px;}
-  
-  }
   
   }
