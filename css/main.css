@@ -1625,7 +1625,6 @@ body {
 
   .bg {display:flex;
   justify-content: space-around;
-  margin: -1px;
   padding: 0;}
 
   .bg1, .bg2, .bg3, .bg4 {
