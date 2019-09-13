@@ -8,6 +8,111 @@ body {
   font-size: 16px;
 }
 
+#navigation-menu {
+  padding: 0 7rem 0rem 7rem;
+  height: 10vh;
+  display: block;
+  background-color: transparent;
+  margin-bottom: -1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+
+  
+ 
+}
+
+.top-section {
+  
+  
+}
+
+.menu-line {
+  height: 1px;
+  background: rgba(81, 81, 81, 0.3);
+  z-index: 9;
+  width: 85vw; 
+  margin: auto;
+
+}
+
+.main-area {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+}
+
+.main-area__content {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10rem;
+}
+
+
+.main-area__content h1 {
+  font-size: 2.5rem;
+  padding-right: 6rem;
+  
+}
+.main-area__content p {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 2rem;
+  padding-right: 5rem;
+  
+}
+
+.btns-top {
+  padding-left: 0;
+}
+
+.main-area__wheel-image {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  left: 50%;
+  bottom: 0;
+  max-height: 80vh;
+   
+  background: url('/img/version-wheel.png') 20% 10%/cover no-repeat;
+  z-index: -1;
+    
+}
+
+.nav-links ul,
+.links-right ul {
+  display: flex;
+}
+.nav-links ul li,
+.links-right ul li {
+  padding: 1.25rem 2rem;
+  z-index: 50;
+  list-style: none;  
+
+}
+
+.nav-links ul li a,
+.links-right ul li a {
+  text-decoration: none;
+  color: #17283a;
+  
+}
+
+.links-right ul li a {
+  
+  color: #fff;
+  
+}
+
+.max-width-1 {
+  max-width: 1500px;
+  margin: auto;
+}
+
+
 /* Mobile */
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -1323,6 +1428,7 @@ body {
 }
 
 
+
 /*DESKTOP*/
 
 @media screen and (min-width: 1281px) {
@@ -1388,14 +1494,18 @@ body {
         align-items: center;
         padding: 0 0 0 35px;}
 
-  .btns-top {display: flex; flex-flow: row; align-items: center; padding-left:25px;}
+  .btns-top {display: flex; flex-flow: row; align-items: center;}
 
   .btn-top {text-decoration: none;
       background-color: #5bc399;
       padding: 24px 40px;
       color: white;
-      border-radius: 5px;
-      margin: 10px 10px;}
+      border-radius: 5px;      
+      }
+
+    .btns-top > a {
+      margin-right: 20px;
+    }
 
   .control-code {display: flex;}
 
@@ -1808,3 +1918,7 @@ body {
             margin-top: 30px;}
 
   }
+
+
+ 
+
