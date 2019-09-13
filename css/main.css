@@ -1231,7 +1231,7 @@ body {
     text-align: initial;
   }
   .version-wheel {
-    width: 45%;
+   width: 45%;
   }
   .partners__logos__row1 {
     margin-top: 2rem;
@@ -1315,11 +1315,6 @@ body {
     max-width: 60%;
   }
 
-
-
-
-
-
 }
 
 
@@ -1354,8 +1349,6 @@ body {
               top: -40px;
               color: black;
               margin: 20px;}
-
-
 
 .link-right-a, .link-right-a-scd-row {float: right;
                                       display: flex;
@@ -1582,7 +1575,8 @@ body {
              margin-top: 29px;}
 
   .case-wrapper {display: flex;
-           flex-flow: row;
+           flex-shrink: 0;
+           flex-flow: row nowrap;
            padding: 40px 50px 50px 50px;
            line-height: 28px;
            background-color: #f7f7f7;}
