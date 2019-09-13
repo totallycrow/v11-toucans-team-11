@@ -1581,7 +1581,7 @@ body {
            line-height: 28px;
            background-color: #f7f7f7;}
 
-  .goals {width: 49%;}
+  .goals {min-width: 49%;}
 
   .case__content {padding: 0 0 10px 30px;}
 
