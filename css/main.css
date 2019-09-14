@@ -1834,3 +1834,7 @@ body {
             margin-top: 30px;}
 
   }
+
+  .navbar .myLinks.show {
+  display: block;
+}
