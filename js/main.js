@@ -1,6 +1,7 @@
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 if ( $(window).width() < 1281) {
+  document.getElementById("myFunction").addEventListener("click", myFunction);
 function myFunction() {
   var x = document.getElementsByClassName('myLinks');
   const divyArray = Array.from(x);
