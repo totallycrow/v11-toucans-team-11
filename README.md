@@ -12,7 +12,7 @@ This project is the result of a choice between team members and it's the main pr
 
 ### Techstack:
 
-**HTML5** , **CSS3** and **Javascript**.
+**HTML5** , **CSS3**, **jQuery** and **Javascript**.
 
 ### Running the project:
 
