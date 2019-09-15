@@ -1378,9 +1378,9 @@ hr   {border-top: 1px solid rgba(0, 0, 0, 0.15); position: relative; top: 60px;}
                        color: white;
                        margin: 10px;}
 
-.log {position: absolute; top: 60px; right: 80px; padding: 20px;}
+.log {position: absolute; top: 70px; right: 100px; z-index: 5; font-size: 14px;}
 
-.support {position: absolute; top: 60px; right: 0px; padding: 20px;}
+.support {position: absolute; top: 70px; right: 20px; z-index: 5; font-size: 14px;}
 
 .get-started {background-color: #5bc399;
               color: white;
@@ -1765,11 +1765,11 @@ hr   {border-top: 1px solid rgba(0, 0, 0, 0.15); position: relative; top: 60px;}
   margin: auto;
   }
 
-  /* Hide the images by default *//*
+/*
   .mySlides {
   display: none;
   }
-  */
+*/
 
   /* The dots/bullets/indicators */
   .dot {
