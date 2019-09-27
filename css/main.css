@@ -619,6 +619,55 @@ body {
   /* totallycrow  */
 
   /* Navbar */
+
+  /* Hamburger */
+  .hamburger-menu {
+    display: inline-block;
+    position: absolute;
+    top: 3.5%;
+    right: 5%;
+  }
+
+  /* Mobile Menu */
+  .mobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    z-index: 9999;
+  }
+
+  .close-icon {
+    color: #fff;
+    position: absolute;
+    top: 3.5%;
+    right: 5%;
+  }
+
+  .mobile_overlay__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+  }
+  .mobile_overlay__links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+
+  }
+  .mobile_overlay__links img {
+    width: 30%;
+
+  }
+
+  /* Menu */
   
   #navigation-menu {
     padding: 0rem 1rem 0rem 1rem;
@@ -711,8 +760,56 @@ body {
 /* TABLET View */
 @media (min-width: 768px) and (max-width: 1280px) {
 
-  /* totallycrow  */
+ /* totallycrow  */
+
   /* Navbar */
+
+  /* Hamburger */
+  .hamburger-menu {
+    display: inline-block;
+    position: absolute;
+    top: 3.5%;
+    right: 5%;
+  }
+
+  /* Mobile Menu */
+  .mobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    z-index: 9999;
+  }
+
+  .close-icon {
+    color: #fff;
+    position: absolute;
+    top: 3.5%;
+    right: 5%;
+  }
+
+  .mobile_overlay__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  .mobile_overlay__links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+
+  }
+  .mobile_overlay__links img {
+    width: 30%;
+
+  }
   
   #navigation-menu {
     padding: 0rem 1rem 0rem 1rem;
@@ -2128,6 +2225,40 @@ body {
               overflow-x: hidden;
             }
 
+            .links-right {
+              position: relative;
+            }
+            .links-right__bottom ul {
+              display: flex;
+              justify-content: flex-end;
+            }
+            .links-right__bottom ul li {
+              padding: 0 1rem;
+              z-index: 50;
+              list-style: none;
+              color: #fff;
+              text-decoration: none; 
+            }
+            .links-right__bottom ul li a {
+              
+              font-size: 0.8rem;
+              color: #fff;
+              text-decoration: none; 
+            }
+
+            .links-right__bottom {
+              position: absolute;
+              top: 120%;
+               
+              width: 100%; 
+              max-width: 1500px;
+              
+               
+                    
+
+            }
+            
+
             /* MEGAMENU */
             .nav-links ul li, .links-right ul li {
               
@@ -2138,11 +2269,13 @@ body {
               opacity: 0;              
               transition: opacity 2s linear;
               position: absolute;
-              
-              width: 1400px;
+              max-width: 80vw;
+              width: 90vw;
               
               top: 100%;
-              left: 25%;              
+              left: 0%;
+              right: 0;
+                           
               background: white;
               
               flex-direction: column;
@@ -2150,6 +2283,107 @@ body {
               border: 1px solid rgba(81, 81, 81, 0.1);
               border-top-left-radius: 5px; 
               border-top-right-radius: 5px;
+            }
+
+            .mega-3 {
+              top: 100%;
+              left: 80%;              
+            }
+            
+            .mega-3 a {
+              margin-top: 1rem;
+              margin-left: 2rem;
+              padding: 0rem 1rem;
+              font-size: 0.8rem;
+            }
+            .mega-4 {
+              top: 100%;
+              left: 100%;              
+            }
+            
+            .mega-4 a {
+              margin-top: 1rem;
+              margin-left: 2rem;
+              padding: 0rem 1rem;
+              font-size: 0.8rem;
+            }
+            .mega-3-container {
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+            }
+
+            .mega-3__left {
+              padding: 1rem;
+            }
+
+            .mega-3__left__img {
+              padding: 1rem;
+              background: url('../img/join-us-on-slack.png') center center/cover no-repeat;
+              height: 150px;
+              width: 100%;
+              position: relative;
+            }
+            .mega-4__left__img {
+              padding: 1rem;
+              background: url('../img/join-our-team.png') center center/cover no-repeat;
+              height: 150px;
+              width: 100%;
+              position: relative;
+            }
+
+            .mega-3__right {
+              display: flex;
+              flex-direction: column;
+            }
+
+            .text-overlay-header {
+              position: absolute;
+              z-index: 99;
+              color: #fff;
+              top: 50%;
+              padding: 1rem;
+              font-weight: bold;
+              font-size: 1.2rem
+              
+              
+            }
+            .text-overlay-header-small {
+              position: absolute;
+              z-index: 99;
+              color: #fff;
+              top: 42%;
+              padding: 1rem;
+              font-size: 0.8rem;
+              
+            }
+            .text-overlay-header-2 {
+              position: absolute;
+              z-index: 99;
+              color: #fff;
+              top: 60%;
+              padding: 1rem;
+              font-weight: bold;
+              font-size: 1.2rem
+              
+              
+            }
+            .text-overlay-header-2-small {
+              position: absolute;
+              z-index: 99;
+              color: #fff;
+              top: 50%;
+              padding: 1rem;
+              font-size: 0.8rem;
+              
+            }
+            
+
+            .mega-small {
+              width: 600px;
+
+            }
+            .mega-regular {
+              width: 1400px;
             }
 
             .mega-1__top {
@@ -2224,6 +2458,14 @@ body {
             }
             .mega-p {
               padding: 0.2rem;
+            }
+
+            .hamburger-menu {
+              display: none;
+            }
+
+            .mobile-overlay {
+              display: none;
             }
 
             

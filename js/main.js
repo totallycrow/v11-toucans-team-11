@@ -29,3 +29,22 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
+
+// Navbar Mobile Menu
+const hamburgerIcon = document.querySelector(".hamburger-menu");
+
+const menuDiv = document.querySelector(".mobile-overlay");
+const closeIcon = document.querySelector(".close-icon");
+
+hamburgerIcon.addEventListener("click", toggleMenu);
+closeIcon.addEventListener("click", closeMenu);
+
+function toggleMenu() {
+  menuDiv.style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+
+function closeMenu() {
+  menuDiv.style.display = "none";
+  document.body.style.overflow = "visible";
+}
